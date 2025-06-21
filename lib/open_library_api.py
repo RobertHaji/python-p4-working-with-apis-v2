@@ -22,6 +22,7 @@ class Search:
     def get_search_results_json(self):
         search_term = "the lord of the rings"
 
+
         search_term_formatted = search_term.replace(" ", "+")
         fields = ["title", "author_name"]
         fields_formatted = ",".join(fields)
